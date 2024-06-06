@@ -1,0 +1,156 @@
+@charset "UTF-8";
+#main{position:relative; overflow:hidden; background:#111;}
+.pc{position:relative; overflow:hidden; width:auto; height:100%;}
+.mobile{display:none;}
+.inner{width:90%; margin:0 auto;}
+.page_title{position:absolute; top:80px; left:5%; font-size:21px; font-weight:600; color:#fff; z-index:9;}
+.content_wrap{position:relative; width:100%; height:100%;}
+
+/* common */
+.swiper-wrapper{transition: cubic-bezier(0.62, 0, 0, 0.98);}
+.swiper-slide{
+	text-align: center;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	position: relative;
+}
+.swiper-slide.swiper-slide-active{position: relative;}
+.swiper-slide.swiper-slide-active .box-image:before{left:-100%; width:100%; transition-delay:0s;}
+.swiper-slide.swiper-slide-active .box-image:after{width:0%; transition-delay:0s;}
+
+/* thumbnail_bg */
+.background_wrap{position:absolute; width:100%; height:100%;}
+.thumbnail_bg{width:100%; height:100%;}
+.bg1{background:#0e45d6;}
+.bg2{background:#111111;}
+.bg3{background:#ff6ca3;}
+.bg4{background:#b2b2b2;}
+.bg5{background:#6bccff;}
+.bg6{background:#aa0003;}
+.bg7{background:#0d2d80;}
+.bg8{background:#ffcb1d;}
+
+.thumbnail_bg .swiper-slide ul{position:absolute; top:50%; left:5%; transform:translateY(-50%);}
+.thumbnail_bg .swiper-slide ul li{position:relative; margin-bottom:40px; text-align:left;}
+.thumbnail_bg .swiper-slide ul li p{font-size:13px; font-weight:500; color:#fff;}
+.thumbnail_bg .swiper-slide ul li:after{position:absolute; content:""; bottom:-3px; width:15px; height:2px; background:#fff;}
+
+
+/* thumbnail_box */
+.thumbnail_box{position:absolute !important; top:0; right:0; width:64%; height:100%; z-index:9;}
+
+/* box-image */
+.swiper-slide:nth-child(2) .box-image:before, .swiper-slide:nth-child(2) .box-image:after{display: none;}
+
+.swiper-slide .box-image{
+	display:flex;
+	align-items:center;
+	position: absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.swiper-slide .box-image:before{
+	content: "";
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	width:0%;
+	height:100%;
+	transition:cubic-bezier(1, 0.02, 0.62, 1);
+	transition-duration:1s;
+	transition-delay:2s;
+}
+
+.swiper-slide .box-image:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: cubic-bezier(1, 0.02, 0.62, 1);
+	transition-duration: 1s;
+	transition-delay: 1s;
+}
+
+/* thumbnail_title */
+.thumbnail_title{
+	position:absolute !important;
+	top:200px;
+	left:18.5vw;
+	height: 550px;
+	width: 500px;
+	box-sizing: border-box;
+}
+
+.thumbnail_title .swiper-slide{
+	height: 100%;
+	opacity: 1;
+	text-align: left;
+}
+
+.thumbnail_title .swiper-slide h2{position:absolute; top:55px; left:0; font-size:100px; font-weight:600; color:#fff; text-shadow:3px 3px 10px rgba(17,17,17,0.2);}
+.thumbnail_title .swiper-slide h3{position:absolute; top:200px; left:0px; font-size:65px; font-weight:600; font-family:'Noto Sans KR'; color:#fff; line-height:95px; text-shadow:3px 3px 10px rgba(17,17,17,0.2);}
+.thumbnail_title .swiper-slide p{position:absolute; top:0px; left:0px; font-size:21px; color:#fff;}
+.thumbnail_title .swiper-slide .page_quick{position:absolute; top:425px; left:0px; width:200px; height:60px; color:#fff; border:1px solid #fff; border-radius:35px; text-align:center; line-height:60px; font-size:21px; transition:all 0.3s ease-out; cursor:pointer;}
+.thumbnail_title .swiper-slide .page_quick:hover{background:#fff; color:#111; font-weight:500;}
+.thumbnail_title .swiper-slide span{display:block;}
+.thumbnail_title .swiper-slide-active {opacity:1;}
+
+.thumbnail_title .swiper-slide .rps_page_quick{display:none; position:absolute; bottom:18px; right:0; width:40px; height:40px;}
+.thumbnail_title .swiper-slide .rps_page_quick figure{width:100%;}
+
+/* buttons */
+.buttons{position:absolute; top:800px; left:36.5vw;}
+.buttons .swiper-button-next{position:absolute; width:60px; height: 60px; right:-100px; background:url(../image/button_next.svg) no-repeat; background-size:100% auto; background-position:center; transition:all 0.3s ease-out; cursor:pointer;}
+.buttons .swiper-button-next:hover{transform:translateX(10px);}
+.buttons .swiper-button-prev{position:absolute; width:60px; height:60px; left:-100px; background:url(../image/button_prev.svg) no-repeat; background-size:100% auto; background-position:center; transition:all 0.3s ease-out; cursor:pointer;}
+.buttons .swiper-button-prev:hover{transform:translateX(-10px);}
+
+/* home */
+/**
+.home{position:absolute; bottom:5%; left:5%; width:60px; height:60px; overflow:hidden; z-index:9;}
+.home figure{width:60px; height:60px; transition:all 0.3s ease-out; cursor:pointer;}
+.home figure img{width:100%;}
+.home figure:hover{transform:translateY(-60px);}
+**/
+
+/* bullet */
+.bullet{width:300px; border:1px solid red; position:relative; height:550px; z-index:9999;}
+.bullet .swiper-pagination-bullets.swiper-pagination-horizontal{top:50px;}
+.bullet .swiper-pagination-bullet {width:100%; min-height: 30px; background:transparent; opacity:1; }
+.bullet .swiper-pagination-bullet span{color:#fff;}
+.bullet .swiper-pagination-bullet-active span{color:red;}
+
+
+/* mobile */
+.mobile{position:relative;} 
+.mobile ul{display:flex; flex-direction:column; align-items:center;}
+.mobile ul li.mb_thumbnail{position:relative; width:100%;}
+.mobile ul li.mb_thumbnail figure{width:100%;}
+.mobile ul li.mb_thumbnail figure img{width:100%;}
+
+.mobile ul li.mb_thumbnail .thumbnail_hover{position:absolute; top:0; left:0; width:100%; height:100%; background:linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));}
+.mobile ul li.mb_thumbnail .thumbnail_hover .thumb_texts{position:absolute; bottom:5%; left:5%;}
+.mobile ul li.mb_thumbnail .thumbnail_hover .thumb_texts .thumb_category{font-size:2vw; color:#fff;}
+.mobile ul li.mb_thumbnail .thumbnail_hover .thumb_texts .thumb_title{font-size:2.7vw; font-weight:500; color:#fff;}
+
