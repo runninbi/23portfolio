@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*header*/
+.header_black{background-color:#0d0d0d;}
+.headerWrap .top_section > span{position:absolute; right:70px; top:33px; color:#ffffff; cursor:pointer; z-index:9999;}
+.SubheaderWrap .top_section > span{position:absolute; right:70px; top:33px; color:#ffffff; cursor:pointer; z-index:9999;}
+
+/*nav*/
+.headerWrap{position:fixed; top:0; z-index:99999; width:100%; height:90px; min-width:1200px;}
+.SubheaderWrap{position:fixed; top:0; z-index:99999; width:100%; height:90px; min-width:1200px; background:#0d0d0d;}
+.logo {position:absolute; z-index:9; left:70px; top:17px; width:70px; height:55px;}
+.header{position:relative; width:100%; height:90px;}
+.header::after{content:""; position:absolute; height:10px; width:100%; top:90px; background-image: url(http://logosimg.cafe24.com/ossgFinal/image/common/shdw2.png); background-repeat: repeat-x;}
+
+/* 대메뉴 */
+#gnb { position: absolute; height:100%; text-align: center; left: 0; right: 0; margin: auto;}
+#gnb > li {display: inline-block; text-align: center; width:150px;}
+#gnb > li a {display: inline-block; color: #fff; font-size:20px; font-family: 'Roboto Slab', serif; position:relative; width:100%; line-height:90px;}
+#gnb > li a:hover{color:#ffcc1c; transition:all 0.3s ease-out;}
+#gnb > li.currentGnb a{color:#ffcc1c;}
+
+
+/* 서브메뉴 */
+.snbWrap{display:none; position:absolute; width:100%; left: 0px; top: 90px; background-color: #222; z-index: -1;}
+.snbWrap #snb {position: relative; text-align: center;}
+.snbWrap #snb > li {position: relative; display: inline-block; vertical-align: top; width:150px; height:100%;}
+.snbWrap #snb li ul {width:auto; padding:20px 0; height:230px;}
+.snbWrap #snb li ul li {margin-bottom:3px; text-align:center;}
+.snbWrap #snb li ul li a {display:block; width:100%; padding: 7px 0; font-size:17px; letter-spacing: -1px; color:#ccc;}
+.snbWrap #snb li ul li a:hover,
+.snbWrap #snb li ul li.currentSnb a{color:#fff; font-weight: 500;}
+
+.gnbBg { display:none; position:fixed; width:100%; height:100%; top:0; left:0; background:rgba(0, 0, 0, 0.6); z-index:998;}
+.stop-scrolling {height: 100%;overflow: hidden;}

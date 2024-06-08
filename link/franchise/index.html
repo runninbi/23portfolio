@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="viewport" content="width=1440,initial-scale=1.0">
+  <title>루이스 버거</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/nav.css" type="text/css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script type="text/javascript">
+	var UserAgent = navigator.userAgent; 
+	if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+	{
+	  location.href = "mobile/index.html";
+	}
+  </script>
+
+  <script type="text/JavaScript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="js/gnb.js"></script>
+  <script>
+	var gid = 0;
+	var sid = 0;
+	
+	$(document).ready(function(){
+		$(window).scroll(function(){
+		    if($(this).scrollTop() > 150){
+				$("header").addClass('header_black');
+			}else{
+				$("header").removeClass("header_black");
+		    }
+		});
+	});
+  </script>
+
+ </head>
+ <body>
+  <div id="wrap">
+  	<!--quick-->
+		<div class="quick">
+			<ul>
+				<li>
+					<div class="over">
+						<p>창업문의</p>
+					</div>
+					<span class="fran_councel" onclick="location.href=''"></span>
+				</li>
+				<li>
+					<div class="over">
+						<p>1:1문의</p>
+					</div>
+					<span class="mtm_councel" onclick="location.href=''"></span>
+				</li>
+				<li>
+					<div class="over">
+						<p>딜리버리</p>
+					</div>
+					<span class="quick_delivery" onclick="location.href=''"></span>
+				</li>
+			</ul>
+		</div>
+	<!--//quick-->
+	<!--header-->
+	<header class="headerWrap" id="header_change">
+		<!--topsection-->
+		<h1 class="logo"><a href="index.html"><img src="image/logo.png" title="루이스버거"></a></h1>
+		<div class="top_section">
+			<span class="material-icons">login</span>
+		</div>
+		<!--//topsection-->
+
+		<div class="header">
+			<!--nav-->
+			<ul id="gnb">
+				<li><a href="html/brand/brandstory.html">BRAND</a></li>
+				<li><a href="html/menu/menu.html">MENU</a></li>
+				<li><a href="html/brand/brandstory.html">FRANCHISE</a></li>
+				<li><a href="html/menu/menu.html">NEWS</a></li>
+				<li><a href="html/brand/brandstory.html">STORE</a></li>
+			</ul>
+			<!--//nav-->
+		</div>
+
+		<!--sub-->
+		<div class="snbWrap">
+			<ul class="snb" id="snb">
+				<li>
+					<ul>
+						<li><a href="html/brand/brandstory.html">ARTISAN BURGER</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href="html/menu/menu.html">전체 메뉴</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href="html/brand/brandstory.html">루이스 버거 경쟁력</a></li>
+						<li><a href="html/menu/menu.html">개설 절차 및 비용</a></li>
+						<li><a href="html/brand/brandstory.html">가맹상담</a></li>
+						<li><a href="html/menu/menu.html">자주 묻는 질문</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href="html/brand/brandstory.html">공지사항</a></li>
+						<li><a href="html/menu/menu.html">SNS</a></li>
+						<li><a href="html/brand/brandstory.html">보도자료</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a href="html/menu/menu.html">매장안내</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!--//sub-->
+	</header>
+	<div class="gnbBg"></div>
+	<!--//header-->
+	<!--main_visual-->
+	<div class="main_visual">
+		<!--arrow-->
+		<span class="btn_prev" id="BtnPrev"><img src="image/main/arrow_left.png" alt="BtnPrev"></span>
+		<span class="btn_next" id="BtnNext"><img src="image/main/arrow_right.png" alt="BtnNext"></span>
+		<!--//arrow-->
+		<div class="visual_slider">
+		    <!--//1-->
+			<div class="slide">
+				<div class="slide__img">
+					<img src="" data-lazy="image/vis_img1.jpg" data-animation-in="zoomOutImage" class="animate__animated">
+					<div class="slide__content">
+						<div class="slide__content__head">
+							<h2 class="animate__animated" data-animation-in="animate__fadeInUp" data-duration-in="2">LOUIS BURGER</h2>
+							<h3 class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="0.5">따라 하지 않습니다.</h3>
+							<p class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="1">30년의 요리 노하우로 루이스 버거만의 특제 스프레드와<br>비프패티 믹스를 개발하여 공급합니다.</p>
+							<span class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="1.5"><a href="#">가맹상담 바로가기</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--//2-->
+			<div class="slide">
+				<div class="slide__img">
+					<img src="" data-lazy="image/vis_img2.jpg" data-animation-in="zoomOutImage" class="animate__animated">
+					<div class="slide__content">
+						<div class="slide__content__head">
+							<h2 class="animate__animated" data-animation-in="animate__fadeInUp" data-duration-in="2">LOUIS BURGER</h2>
+							<h3 class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="0.5">믿고 먹는 건강한 수제버거.</h3>
+							<p class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="1">패티는 현장에서 당일 생산되고 야채는 매일매일 신선하게<br>입고되어 전처리 후 사용합니다.</p>
+							<span class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="1.5"><a href="#">가맹상담 바로가기</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--//3-->
+			<div class="slide">
+				<div class="slide__img">
+					<img src="" data-lazy="image/vis_img3.jpg" data-animation-in="zoomOutImage" class="animate__animated">
+					<div class="slide__content">
+						<div class="slide__content__head">
+							<h2 class="animate__animated" data-animation-in="animate__fadeInUp" data-duration-in="2">LOUIS BURGER</h2>
+							<h3 class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="0.5">약속합니다.</h3>
+							<p class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="1">고객은 루이스 버거를 통해 행복해야 하고<br>비즈니스 파트너는 공정을 통한 상생이 가능해야 합니다.</p>
+							<span class="animate__animated" data-animation-in="animate__fadeInUp" data-delay-in="1.5"><a href="#">가맹상담 바로가기</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//main_visual-->
+	<!--content-->
+	<div class="content">
+		<!--recommend-->
+		<div class="inner recommend">
+			<div class="rec_text">
+				<h2 data-aos="fade-up" data-aos-duration="1000">Recommend</h2>
+				<h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">루이스버거가 자신있게 선보이는<br>베스트 수제버거를 소개합니다.</h3>
+			</div>
+			<div class="banner">
+				<div class="arrow" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+					<!--arrow-->
+					<span id="bannerPrev"><img src="image/main/arrow2_left.png" alt="bPrev"></span>
+					<span id="bannerNext"><img src="image/main/arrow2_right.png" alt="bNext"></span>
+					<!--//arrow-->
+				</div>
+				<div class="box_content">
+					<!--slider-->
+					<div class="rectext_slider">
+						<div class="items" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+							<b>트러플 버거</b>
+							<p class="mu_tit_eng">TRUFFLE BURGER</p>
+							<p>100% 소고기 패티, 체다 치즈, 양파, 로메인, 트러플,<br>트러플소스로 더욱 풍부하고 깊은 맛을 느낄 수 있습니다.</p>
+						</div>
+						<div class="items">
+							<b>아보카도 버거</b>
+							<p class="mu_tit_eng">AVOCADO BURGER</p>
+							<p>100% 소고기 패티, 아메리칸 치즈, 토마토, 양파, 베이컨 2장, 로메인,<br>아보카도, 루이스소스로 더욱 풍부하고 깊은 맛을 느낄 수 있습니다.</p>
+						</div>
+						<div class="items">
+							<b>머쉬룸 버거</b>
+							<p class="mu_tit_eng">MUSHROOM BURGER</p>
+							<p>100% 소고기 패티, 아메리칸 치즈, 토마토, 양파, 베이컨 2장, 로메인,<br>버섯, 머쉬룸소스로 더욱 풍부하고 깊은 맛을 느낄 수 있습니다.</p>
+						</div>
+					</div>
+					<div class="reccontent_slider">
+						<div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"><img src="image/main/truffle_burger.png" alt=""></div>
+						<div><img src="image/main/avocado_burger.png" alt=""></div>
+						<div><img src="image/main/mushroom_burger.png" alt=""></div>
+					</div>
+					<!--//slider-->
+				</div>
+			</div>
+		</div>
+		<!--//recommend-->
+		<!--bandf-->
+		<div class="bandf">
+			<div class="inner">
+				<ul>
+					<li>
+						<div class="brand_content" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1100">
+							<div class="brand_text">
+								<p class="brandstory">BRAND STORY</p>
+								<p>오랜 시간동안 경험해 온<br>음식에 대한 철학과 정성.<br>온전히 루이스 버거에 담았습니다.</p>
+								<a href="html/brand/brandstory.html"><span class="button"></span></a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="franchise_content" data-aos="fade-up" data-aos-delay="350" data-aos-duration="400">
+							<div class="franchise_text">
+								<p class="franchise">FRANCHISE</p>
+								<p>루이스 버거! 새로운 경험입니다.<br>럭셔리버거의 정석.<br>30년의 노하우를 만나보세요.</p>
+								<a href="#"><span class="button"></span></a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--//bandf-->
+		<!--menu-->
+		<div class="foodmenu">
+			<div class="inner">
+				<div class="menu_text">
+					<h2 data-aos="fade-up" data-aos-duration="1000">MENU</h2>
+					<h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">맛있고 건강한 햄버거! 자신있게 맛 보여 드리고자 합니다.</h3>
+				</div>
+			</div>
+			<!--슬라이드 내비-->
+			<div class="food_wrap">
+				<div class="inner_food">
+				    <!--food_nav-->
+					<div class="food_nav">
+						<div class="food_nav_slider" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+						    <div class="items"><p>버거</p></div>
+							<div class="items"><p>샐러드</p></div>
+							<div class="items"><p>사이드</p></div>
+							<div class="items"><p>음료</p></div>
+						</div>
+					</div>
+					<!--//food_nav-->
+
+					<!--food_text-->
+					<div class="food_text">
+						<div class="food_text_slider">
+						    <div class="items">
+								<h2 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">단 한입만으로<br>느끼는 장인의 맛</h2>
+								<h3 data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">루이스 버거</h3>
+								<h4 data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">100% 소고기패티, 아메리칸치즈, 토마토,<br>그라나파다노 튀일, 양파, 로메인, 루이스소스로<br>더욱 풍부하고 깊은 맛을 느낄 수 있습니다.</h4>
+						    </div>
+							<div class="items">
+								<h2>루이스 버거,<br>기본의 '격'을 높였습니다</h2>
+								<h3>오리지널 버거</h3>
+								<h4>100% 소고기패티, 아메리칸치즈, 토마토,<br>그라나파다노 튀일, 양파, 로메인, 루이스소스로<br>더욱 풍부하고 깊은 맛을 느낄 수 있습니다.</h4>
+							</div>
+							<div class="items">
+								<h2>신선한 버섯으로<br>버거의 풍미를 더하다</h2>
+								<h3>머쉬룸 버거</h3>
+								<h4>100% 소고기패티, 아메리칸치즈, 토마토,<br>그라나파다노 튀일, 양파, 로메인, 루이스소스로<br>더욱 풍부하고 깊은 맛을 느낄 수 있습니다.</h4>
+							</div>
+						</div>
+					</div>
+					<!--//food_text-->
+
+					<!--food_img-->
+					<div class="food_img">
+						<div class="food_img_slider" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+						    <div class="items">
+								<div>
+									<p><img src="image/main/mu_img1.jpg" alt="louis"></p>
+								</div>
+							</div>
+							<div class="items">
+								<div>
+									<p><img src="image/main/mu_img2.jpg" alt="original"></p>
+								</div>
+							</div>
+							<div class="items">
+								<div>
+									<p><img src="image/main/mu_img3.jpg" alt="mushroom"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--//food_img-->
+				</div>
+			</div>
+		</div>
+		<!--//menu-->
+		<!--quickboxes-->
+		<div class="quickboxes">
+			<div class="inner">
+				<ul>
+					<li>
+						<div class="search" onclick="location.href=''" data-aos="fade-up" data-aos-duration="1000">
+							<div class="search_text">
+								<p><b>매장안내</b></p>
+								<p>고객님의 가장 가까이 있는<br>매장을 찾아보세요!</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="notice" onclick="location.href=''" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+							<div class="notice_text">
+								<p><b>공지사항</b></p>
+								<p>루이스버거의 새로운<br>소식을 확인하세요!</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="delivery" onclick="location.href=''" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+							<div class="delivery_text">
+								<p><b>딜리버리</b></p>
+								<p>루이스버거를 집에서도<br>편안하게 즐기세요!</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--//content-->
+	<!--footer-->
+	<footer>
+		<div class="copy">
+			<div class="inner">
+				<a href="index.html"><img src="image/full_logo.png" alt="루이스버거"></a>
+				<div class="address_info">
+					<p>쉐프코리아  01842 서울 노원구 동일로192길 62 (공릉동) 대표자: 김왕석<br>사업자등록번호: 217-81-34844</p>
+					<p>ⓒ 2022-2023 쉐프코리아 ALL RIGHTS RESERVED.</p>
+				</div>
+				<div class="inquiry">
+					<p class="inquiry_info">고객센터&nbsp<b>1544-4987<b></p>
+					<p>운영시간 평일 am 09 : 00 ~ pm 18 : 00</p>
+					<p>점심시간 noon 12 : 00 ~ pm 13 : 00</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer_down">
+			<div class="inner">
+				<div class="fd_content">
+					<a href="#">이용약관</a>
+					<a href="#">개인정보처리방침</a>
+					<a href="#">이메일주소무단수집거부</a>
+				</div>
+				<div class="sns">
+					<ul>
+						<li><a href="#"><img src="image/facebook_logo.png" alt="페이스북"></a></li>
+						<li><a href="#"><img src="image/instagram_logo.png" alt="인스타그램"></a></li>
+						<li><a href="#"><img src="image/youtube_logo.png" alt="유튜브"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--//footer-->
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+  <script>
+	$(document).ready(function(){
+		//main-visual
+		$(".visual_slider").slick({
+			fade:true,
+			autoplaySpeed:6000,
+			autoplay:true, 
+			infinite:true,
+			dots:false,
+			arrows:true,
+			pauseOnHover:false,
+			speed:500,
+			prevArrow:$("#BtnPrev"),
+			nextArrow:$("#BtnNext"),
+			lazyLoad: "progressive", //로딩이 완료 된 후 이미지를 로드
+		}).slickAnimation();
+
+		//recommend slider
+		$(".rectext_slider").slick({
+			autoplay:false,
+			infinite: true,
+			slidesToShow:1,
+			dots:false,
+			arrows:true,
+			speed:500,
+			focusOnSelect:true,
+			prevArrow:$("#bannerPrev"),
+			nextArrow:$("#bannerNext"),
+			asNavFor:'.reccontent_slider'
+		});
+		$(".reccontent_slider").slick({
+			fade:true,
+			autoplay:false,
+			infinite: true,
+			slidesToShow:1,
+			dots:false,
+			arrows:true,
+			speed:500,
+			focusOnSelect:true,
+			prevArrow:$("#bannerPrev"),
+			nextArrow:$("#bannerNext"),
+			asNavFor:'.rectext_slider'
+		});
+
+		//menu_nav_slider
+		$(".food_nav_slider").slick({
+			autoplay:false,
+			infinite: true,
+			slidesToShow:4,
+			dots:true,
+			arrows:false,
+			speed:500,
+			focusOnSelect:true,
+			vertical: true,
+		});
+
+		$(".food_text_slider").slick({
+			fade:true,
+			autoplay:false,
+			infinite: true,
+			slidesToShow:1,
+			dots:false,
+			arrows:false,
+			speed:500,
+			focusOnSelect:true,
+            asNavFor:'.food_img_slider'
+		});
+
+		$(".food_img_slider").slick({
+			autoplay:false,
+			infinite: true,
+			slidesToShow:2,
+			dots:false,
+			arrows:false,
+			speed:500,
+			focusOnSelect:true,
+			asNavFor:'.food_text_slider'
+		});
+
+		AOS.init({
+			easing: 'ease',
+		});
+	});
+  </script>
+ </body>
+</html>
