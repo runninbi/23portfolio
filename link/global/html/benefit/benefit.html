@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>신한카드</title>
+  <!--Add the css-->
+  <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="../../css/nav.css" type="text/css">
+  <link rel="stylesheet" href="../../css/slick.css" type="text/css">
+  <link rel="stylesheet" href="../../css/slick-theme.css" type="text/css">
+  <link rel="stylesheet" href="../../css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  <!--Add the js-->
+  <script src="../../js/jquery-2.1.3.min.js" type="text/javaScript"></script>
+  <script src="../../js/slick.min.js" type="text/javaScript"></script>
+ </head>
+<body id="sub">
+    <!--header(s)-->
+	<header>
+		<div class="all_header">
+			<div class="top_header">
+				<div class="inner">
+					<div class="mycarbox">
+						<p class="mycar">바로가기</p>
+						<p class="arrowdown"><img src="../../image/mycar_arrow_down.png" alt="전체보기"></p>
+						<p class="arrowup"><img src="../../image/mycar_arrow_up.png" alt="닫기"></p>
+					</div>
+					<div class="mycarslide">
+						<ul>
+							<li>마이카</li>
+							<li>신한아름인</li>
+							<li>신한은행</li>
+							<li>올댓쇼핑</li>
+							<li>BIGDATA</li>
+						</ul>
+					</div>
+					<div class="topmenu">
+						<ul>
+							<li>로그인</li>
+							<li>회원가입</li>
+							<li>아이디찾기</li>
+							<li>상품공시실</li>
+							<li>금융소비자보호포털</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bottom_header">
+				<div class="inner">
+					<div class="tit_container">
+						<div class="site_tit">
+							<p onclick="location.href='../../index.html'"><img src="../../image/logo.png" alt="로고"></p>
+							<div class="sitecg">
+								<div class="selected_cg">
+									<p class="sel_tit">개인</p>
+									<p class="arrowdown"><img src="../../image/title_arrow_down.png" alt="전체보기"></p>
+									<p class="arrowup"><img src="../../image/title_arrow_up.png" alt="닫기"></p>
+								</div>
+								<div class="unselected_cg">
+									<ul>
+										<li>법인</li>
+										<li>가맹점</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="../../image/search_icon.png" alt="검색">
+				</div>
+			</div>
+		</div>
+		<div class = "main-wrapper">
+			<nav class = "navbar">
+				<div class = "brand-and-icon">
+					<button type = "button" class = "navbar-toggler"><i class = "fas fa-bars"></i></button>
+					<span onclick="location.href='../../index.html'"><img src="../../image/logo_white.png" alt="logo"></span>
+				</div>
+
+				<div class = "navbar-collapse">
+					<!--nav-->
+					<ul class = "navbar-nav">
+						<li>
+							<a href = "#" class = "menu-link">마이
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>명세서</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">이용대금명세서</a></li>
+										<li><a href = "../mypage/mypage.html">이메일명세서 재발행</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용내역</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">카드이용내역(매출전표)</a></li>
+										<li><a href = "../mypage/mypage.html">카드이용실적 충족현황</a></li>
+										<li><a href = "../mypage/mypage.html">교통카드 이용내역</a></li>
+										<li><a href = "../mypage/mypage.html">개인사업자용 이용내역</a></li>
+										<li><a href = "../mypage/mypage.html">연회비 청구내역</a></li>
+										<li><a href = "../mypage/mypage.html">선택형서비스 조회·변경</a></li>
+										<li><a href = "../mypage/mypage.html">카드별혜택 이용내역</a></li>
+										<li><a href = "../mypage/mypage.html">카드별 통합한도</a></li>
+										<li><a href = "../mypage/mypage.html">VIP 서비스</a></li>
+										<li><a href = "../mypage/mypage.html">프리미엄카드 기프트 옵션</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용금액결제</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">즉시결제</a></li>
+										<li><a href = "../mypage/mypage.html">이번달 청구금액 즉시결제</a></li>
+										<li><a href = "../mypage/mypage.html">연체금액·결제일당일결제</a></li>
+										<li><a href = "../mypage/mypage.html">결제처리결과조회</a></li>
+										<li><a href = "../mypage/mypage.html">당일결제잔액조회</a></li>
+										<li><a href = "../mypage/mypage.html">연회비포인트결제</a></li>
+										<li><a href = "../mypage/mypage.html">입금내역조회</a></li>
+										<li><a href = "../mypage/mypage.html">환불내역조회·즉시환불</a></li>
+										<li><a href = "../mypage/mypage.html">가상계좌</a></li>
+										<li><a href = "../mypage/mypage.html">분할납부</a></li>
+										<li><a href = "../mypage/mypage.html">해외이용전 분할납부</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용한도</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">이용한도조회</a></li>
+										<li><a href = "../mypage/mypage.html">이용한도 상향신청</a></li>
+										<li><a href = "../mypage/mypage.html">한도상향안내 동의</a></li>
+										<li><a href = "../mypage/mypage.html">카드별 이용한도</a></li>
+										<li><a href = "../mypage/mypage.html">추가한도 이용신청</a></li>
+										<li><a href = "../mypage/mypage.html">이용한도 하향신청</a></li>
+										<li><a href = "../mypage/mypage.html">체크특별한도</a></li>
+										<li><a href = "../mypage/mypage.html">개인사업자 추가한도 신청</a></li>
+										<li><a href = "../mypage/mypage.html">이용제한 등록</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+
+						<li>
+							<a href = "#" class = "menu-link">혜택
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>마이샵</h4>
+									<ul>
+										<li><a href = "#">마이샵쿠폰</a></li>
+										<li><a href = "#">마이샵안내</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>할인·포인트</h4>
+									<ul>
+										<li><a href = "#">내가 받은 혜택</a></li>
+										<li><a href = "#">포인트조회·전환</a></li>
+										<li><a href = "#">포인트안내</a></li>
+										<li><a href = "#">캐시백안내</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>신한플레이</h4>
+									<ul>
+										<li><a href = "../event/event.html">이벤트</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>정부지원사업</h4>
+									<ul>
+										<li><a href = "#">상생소비지원금</a></li>
+										<li><a href = "#">교육급여 바우처</a></li>
+										<li><a href = "#">서울시 임산부 교통비 지원금</a></li>
+										<li><a href = "#">성남시 아동수당 포인트</a></li>
+										<li><a href = "#">아동급식카드·선불지원금</a></li>
+										<li><a href = "#">국민행복 국가바우처</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+
+						<li>
+							<a href = "#" class = "menu-link">금융
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>마이 금융</h4>
+									<ul>
+										<li><a href = "../finance/finance.html">나의 금융상품</a></li>
+										<li><a href = "../finance/finance.html">나만의 금융혜택</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>단기카드대출</h4>
+									<ul>
+										<li><a href = "../finance_detail/finance_detail.html">단기카드대출 이용안내</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">계좌 입금</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">카드대금 결제</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">예약신청</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용내역</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">예약취소</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용한도조회</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">프리페이서비스</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용동의·미동의</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용금액결제(상환)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">금리인하요구권</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>장기카드대출</h4>
+									<ul>
+										<li><a href = "../finance_detail/finance_detail.html">대출신청</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">일반론 관리</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">마이너스론 관리</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용내역</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">엔젤서비스(결제연기)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">한도부여 동의·미동의</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">대출계약 철회</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용금액결제(상환)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">금리인하요구권</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>일부결제금액이월약정</h4>
+									<ul>
+										<li><a href = "../finance_detail/finance_detail.html">이용안내</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">신규약정</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">약정확인</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">약정변경</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">약정적용신청</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용금액결제(상환)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">금리인하요구권</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">카드
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드안내</h4>
+									<ul>
+										<li><a href = "../card/card.html">프리미엄카드</a></li>
+										<li><a href = "../card/card.html">신용카드</a></li>
+										<li><a href = "../card/card.html">체크카드</a></li>
+										<li><a href = "../card/card.html">제휴카드</a></li>
+										<li><a href = "../card/card.html">가족카드</a></li>
+										<li><a href = "../card/card.html">모바일 단독 카드</a></li>
+										<li><a href = "../card/card.html">디자인카드</a></li>
+										<li><a href = "../card/card.html">MY DIY</a></li>
+										<li><a href = "../card/card.html">기프트카드</a></li>
+										<li><a href = "../card/card.html">선불카드·선불전자지급수단</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드추천</h4>
+									<ul>
+										<li><a href = "../card/card.html">인기·추천카드</a></li>
+										<li><a href = "../card/card.html">해외이용 추천카드</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>내게맞는 카드찾기</h4>
+									<ul>
+										<li><a href = "../card/card.html">찾아드림</a></li>
+										<li><a href = "../card/card.html">간단찾기</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드 간편신청</h4>
+									<ul>
+										<li><a href = "../card/card.html">신용카드 간편신청</a></li>
+										<li><a href = "../card/card.html">체크카드 간편신청</a></li>
+										<li><a href = "../card/card.html">외국인 카드간편신청</a></li>
+										<li><a href = "../card/card.html">채팅심사</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">서비스
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>생활요금</h4>
+									<ul>
+										<li><a href = "../service/service.html">마이월세</a></li>
+										<li><a href = "../service/service.html">4대 사회보험료</a></li>
+										<li><a href = "../service/service.html">도시가스요금</a></li>
+										<li><a href = "../service/service.html">전기요금</a></li>
+										<li><a href = "../service/service.html">전화요금</a></li>
+										<li><a href = "../service/service.html">아파트관리비</a></li>
+										<li><a href = "../service/service.html">주택임대료(공공임대)</a></li>
+										<li><a href = "../service/service.html">지방세·국세</a></li>
+										<li><a href = "../service/service.html">SK브로드밴드요금</a></li>
+										<li><a href = "../service/service.html">요양병원(시설)이용료</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>구독</h4>
+									<ul>
+										<li><a href = "../service/service.html">디지털구독</a></li>
+										<li><a href = "../service/service.html">쇼핑케어</a></li>
+										<li><a href = "../service/service.html">마이카플러스</a></li>
+										<li><a href = "../service/service.html">디저트Pick</a></li>
+										<li><a href = "../service/service.html">뷰티Pick</a></li>
+										<li><a href = "../service/service.html">뮤직Pack</a></li>
+										<li><a href = "../service/service.html">트래블ON</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>교육비</h4>
+									<ul>
+										<li><a href = "../service/service.html">스쿨뱅킹</a></li>
+										<li><a href = "../service/service.html">대학등록금</a></li>
+										<li><a href = "../service/service.html">신한캠퍼스(학원비)</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>페이</h4>
+									<ul>
+										<li><a href = "../service/service.html">신한Pay머니</a></li>
+										<li><a href = "../service/service.html">PC용 신한Pay</a></li>
+										<li><a href = "../service/service.html">일반결제</a></li>
+										<li><a href = "../service/service.html">신한Smart결제</a></li>
+										<li><a href = "../service/service.html">패스워드 간편결제</a></li>
+										<li><a href = "../service/service.html">ARS결제</a></li>
+										<li><a href = "../service/service.html">더치페이</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">디지털
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>디지털 프로젝트</h4>
+									<ul>
+										<li><a href = "../digital/digital.html">신한플레이</a></li>
+										<li><a href = "../digital/digital.html">모바일 단독 카드</a></li>
+										<li><a href = "../digital/digital.html">오픈뱅킹</a></li>
+										<li><a href = "../digital/digital.html">스타벅스 오더</a></li>
+										<li><a href = "../digital/digital.html">디클럽(D-Club)</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>모바일앱</h4>
+									<ul>
+										<li><a href = "../digital/digital.html">서울Pay+</a></li>
+										<li><a href = "../digital/digital.html">프리미엄 쿠폰</a></li>
+										<li><a href = "../digital/digital.html">MySHOP Partner</a></li>
+										<li><a href = "../digital/digital.html">신한카드 올댓</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">Tops Club
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>Tops Club</h4>
+									<ul>
+										<li><a href = "#">Tops Club 안내</a></li>
+										<li><a href = "#">Tops 쿠폰</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">고객센터
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드상담</h4>
+									<ul>
+										<li><a href = "../qna/qna.html">카드재발급</a></li>
+										<li><a href = "../qna/qna.html">카드분실신고</a></li>
+										<li><a href = "../qna/qna.html">카드일시거래정지</a></li>
+										<li><a href = "../qna/qna.html">PP카드 갱신금지</a></li>
+										<li><a href = "../qna/qna.html">부정사용(분실·도난·위변조) 신고</a></li>
+										<li><a href = "../qna/qna.html">신용카드불법모집 신고</a></li>
+										<li><a href = "../qna/qna.html">불법가맹점 제보</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>고객상담</h4>
+									<ul>
+										<li><a href = "../qna/qna.html">고객상담</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용안내</h4>
+									<ul>
+										<li><a href = "../notice/notice.html">카드 종합 이용안내</a></li>
+										<li><a href = "../notice/notice.html">홈페이지 보안프로그램</a></li>
+										<li><a href = "../notice/notice.html">전자상거래 보안프로그램</a></li>
+										<li><a href = "../notice/notice.html">ARS 이용안내</a></li>
+										<li><a href = "../notice/notice.html">해외 종합 이용안내</a></li>
+										<li><a href = "../notice/notice.html">지점안내</a></li>
+										<li><a href = "../notice/notice.html">이용약관</a></li>
+										<li><a href = "../notice/notice.html">상품공시실</a></li>
+										<li><a href = "../notice/notice.html">투자자문계약 고시</a></li>
+										<li><a href = "../notice/notice.html">공지사항</a></li>
+										<li><a href = "../notice/notice.html">서식</a></li>
+										<li><a href = "../notice/notice.html">원격지원 서비스</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>인증서 안내</h4>
+									<ul>
+										<li><a href = "../qna/qna.html">공동인증서(구 공인인증서)</a></li>
+										<li><a href = "../qna/qna.html">브라우저인증서</a></li>
+										<li><a href = "../qna/qna.html">카드본인확인 서비스</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+					</ul>
+					<!--//nav-->
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--header(e)-->
+
+	<!--sub_content(s)-->
+	<div class="benefit_wrap">
+		<div class="inner">
+			<div class="page_title_box">
+				<h2>혜택</h2>
+			</div>
+			<!--benefit_box-->
+			<div class="benefit_box">
+				<div class="benefit_box_title">
+					<h2>매일 쏟아지는 다양한 혜택!</h2>
+					<p>로그인하고 확인해보세요</p>
+					<span class="benefit_box_button">
+						<p>내 혜택 확인하기</p>
+					</span>
+				</div>
+				<span><img src="../../image/sub/titlebox_image.png" alt="혜택 이미지"></span>
+			</div>
+			<!--//benefit_box-->
+        </div>
+
+		<!--play_event-->
+		<div class="play_event">
+			<h2>pLay 이벤트</h2>
+			<p>현재 참여 가능한 이벤트가 <b>155개</b> 있어요!</p>
+			<div class="inner">
+				<div class="play_event_slider_wrap">
+					<!--arrow-->
+					<span class="btn_prev" id="BtnPrev"><img src="../../image/arrow_left2.png" alt="BtnPrev"></span>
+					<span class="btn_next" id="BtnNext"><img src="../../image/arrow_right2.png" alt="BtnNext"></span>
+					<!--//arrow-->
+					<div class="play_event_slider">
+						<div class="items">
+							<div class="items_content" onclick="location.href='../event/event.html'">
+								<span><img src="../../image/main/event_img1.png" alt="이벤트1"></span>
+								<div class="text_box">
+									<p>숨은 자산 한번에<br>스타벅스 쿠폰은 빠르게</p>
+								</div>
+							</div>
+						</div>
+						<div class="items">
+							<div class="items_content" onclick="location.href='../event/event.html'">
+								<span><img src="../../image/main/event_img2.png" alt="이벤트2"></span>
+								<div class="text_box">
+									<p>결제계좌 변경하고<br>6천원 캐시백 받자!</p>
+								</div>
+							</div>
+						</div>
+						<div class="items">
+							<div class="items_content" onclick="location.href='../event/event.html'">
+								<span><img src="../../image/main/event_img3.png" alt="이벤트3"></span>
+								<div class="text_box">
+									<p>티웨이 항공<br>최대 1만원 할인</p>
+								</div>
+							</div>
+						</div>
+						<div class="items">
+							<div class="items_content" onclick="location.href='../event/event.html'">
+								<span><img src="../../image/main/event_img4.png" alt="이벤트4"></span>
+								<div class="text_box">
+									<p>제주항공 할인 받고<br>여행가자~</p>
+								</div>
+							</div>
+						</div>
+						<div class="items">
+							<div class="items_content" onclick="location.href='../event/event.html'">
+								<span><img src="../../image/main/event_img5.png" alt="이벤트5"></span>
+								<div class="text_box">
+									<p>신한플레이와 첫 만남<br>5천 포인트 즉시 지급</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="full_event" onclick="location.href='../event/event.html'">
+						<p>이벤트 전체보기</p>
+						<img src="../../image/main/quick_arrow.png" alt="" class="quickarrow">
+					</div>
+				</div>	
+			</div>
+			<div class="full_event_responsive" onclick="location.href='../event/event.html'">
+				<p>이벤트 전체보기</p>
+				<img src="../../image/main/morebutton_arrow.png" alt="" class="quickarrow_responsive">
+			</div>
+		</div>
+		<!--//play_event-->
+		
+		<!--myshop_coupon-->
+		<div class="myshop_coupon">
+			<h2>마이샵 쿠폰</h2>
+			<p><b>혜택 ON</b> 하면 알아서 혜택을 적용해줘요</p>
+			<div class="inner">
+				<div class="myshop_coupon_box">
+					<div class="myshop_coupon_content first_div">
+						<div class="top_content">
+							<span><img src="../../image/sub/buttonbox_img1.jpg" alt="디몰"></span>
+							<div class="text_content">
+								<h2 class="text_content_title">디몰(동아제약 공식몰)</h2>
+								<h2 class="text_content_title_responsive">디몰</h2>
+								<p>~2023.04.30 <b>9일 남음</b></p>
+							</div>
+						</div>
+						<div class="bottom_content">
+							<div class="text_content">
+								<h2>15% 캐시백</h2>
+								<p>40,000원 이상 결제시,<br>최대 10,000원까지</p>
+							</div>
+						</div>
+						<span class="buttonbox btn_animation">혜택 ON</span>
+					</div>
+					<div class="myshop_coupon_content second_div">
+						<div class="top_content">
+							<span><img src="../../image/sub/buttonbox_img2.jpg" alt="제주엔젤렌트카"></span>
+							<div class="text_content">
+								<h2>제주엔젤렌트카(온라인 예약)</h2>
+								<p>~2023.04.30 <b>9일 남음</b></p>
+							</div>
+						</div>
+						<div class="bottom_content">
+							<div class="text_content">
+								<h2>5,000원 캐시백</h2>
+								<p>100,000원 이상 결제시</p>
+							</div>
+						</div>
+						<span class="buttonbox btn_animation">혜택 ON</span>
+					</div>
+					<div class="myshop_coupon_content last_div">
+						<div class="top_content">
+							<span><img src="../../image/sub/buttonbox_img3.jpg" alt="정관장"></span>
+							<div class="text_content">
+								<h2>정관장</h2>
+								<p>~2023.05.14 <b>23일 남음</b></p>
+							</div>
+						</div>
+						<div class="bottom_content">
+							<div class="text_content">
+								<h2>20,000원 캐시백</h2>
+								<p>500,000원 이상 결제시</p>
+							</div>
+						</div>
+						<span class="buttonbox">혜택 ON</span>
+					</div>
+				</div>
+				<div class="full_coupon">
+					<p>쿠폰 전체보기</p>
+					<img src="../../image/main/quick_arrow.png" alt="" class="quickarrow">
+				</div>
+			</div>
+			<div class="full_coupon_responsive">
+				<p>쿠폰 전체보기</p>
+				<img src="../../image/main/morebutton_arrow.png" alt="" class="quickarrow_responsive">
+			</div>
+		</div>
+		<!--//myshop_coupon-->
+
+		<!--play_service-->
+		<div class="play_service">
+			<h2>pLay 서비스</h2>
+			<div class="inner">
+				<div class="play_service_content">
+					<ul>
+						<li>
+							<img src="../../image/main/service_img1.png" alt="pLay">
+							<div class="s_con_title">
+								<div class="title_wrap">
+									<b>신한 pLay</b>
+									<img src="../../image/main/morebutton_arrow.png" alt="" class="servicearrow">
+								</div>
+								<p>신한카드 종합생활<br>금융플랫폼</p>
+							</div>
+						</li>
+						<li>
+							<img src="../../image/main/service_img2.png" alt="openbank">
+							<div class="s_con_title">
+								<div class="title_wrap">
+									<b>오픈뱅킹</b>
+									<img src="../../image/main/morebutton_arrow.png" alt="" class="servicearrow">
+								</div>
+								<p>모든 계좌와<br>카드, 페이까지 한번에</p>
+							</div>
+						</li>
+						<li>
+							<img src="../../image/main/service_img3.png" alt="pLay">
+							<div class="s_con_title">
+								<div class="title_wrap">
+									<b>D-Club</b>
+									<img src="../../image/main/morebutton_arrow.png" alt="" class="servicearrow">
+								</div>
+								<p>웰컴 선물과<br>다양한 멤버십 혜택</p>
+							</div>
+						</li>
+						<li>
+							<img src="../../image/main/service_img4.png" alt="pLay">
+							<div class="s_con_title">
+								<div class="title_wrap">
+									<b>스타벅스오더</b>
+									<img src="../../image/main/morebutton_arrow.png" alt="" class="servicearrow">
+								</div>
+								<p>스타벅스 사이렌오더를<br>편리하게</p>
+							</div>
+						</li>
+					</ul>
+					<div class="full_play_service" onclick="location.href='../service/service.html'">
+						<p>서비스 전체보기</p>
+						<img src="../../image/main/quick_arrow.png" alt="" class="quickarrow">
+					</div>
+				</div>
+			</div>
+			<div class="full_play_service_responsive" onclick="location.href='../service/service.html'">
+				<p>서비스 전체보기</p>
+				<img src="../../image/main/morebutton_arrow.png" alt="" class="quickarrow_responsive">
+			</div>
+		</div>
+		<!--//play_service-->
+	</div>
+	<!--sub_content(e)-->
+
+	<!--footer(s)-->
+	<div class="section" id="section6">
+		<div class="footer">
+			<div class="inner">
+				<div class="sns">
+					<span><img src="../../image/katalk_logo.png" alt="카카오톡"></span>
+					<span><img src="../../image/youtube_logo.png" alt="유튜브"></span>
+					<span><img src="../../image/twitter_logo.png" alt="트위터"></span>
+					<span><img src="../../image/facebook_logo.png" alt="페이스북"></span>
+					<span><img src="../../image/blog_logo.png" alt="블로그"></span>
+					<span><img src="../../image/post_logo.png" alt="네이버 포스트"></span>
+				</div>
+				<div class="familysite">
+					<div class="fs_con">
+						<ul>
+							<li>신한금융지주회사</li>
+							<li>신한은행</li>
+							<li>신한투자증권</li>
+							<li>신한라이프</li>
+							<li>신한캐피탈</li>
+							<li>신한자산운용</li>
+							<li>제주은행</li>
+							<li>신한저축은행</li>
+							<li>신한자산신탁</li>
+							<li>신한DS</li>
+							<li>신한펀드파트너스</li>
+							<li>신한신용정보</li>
+							<li>신한리츠운용</li>
+							<li>신한 AI</li>
+							<li>신한벤처투자</li>
+							<li>신한EZ손해보험</li>
+						</ul>
+					</div>
+					<div class="fs_tit">
+						<p class="ft_t">FAMILY SITE</p>
+						<p class="arrowdown"><img src="../../image/fs_arrow.png" alt=""></p>
+						<p class="arrowup"><img src="../../image/fs_arrow_up.png" alt=""></p>
+					</div>
+				</div>
+				<div class="footer_info">
+					<ul>
+						<li>회사소개</li>
+						<li>이용약관</li>
+						<li>개인정보처리방침</li>
+						<li>위치기반서비스 이용약관</li>
+						<li>금융소비자보호포털</li>
+						<li>전자민원접수</li>
+						<li>상품공시실</li>
+						<li>내부자제보</li>
+					</ul>
+					<div class="info_center">
+						<span class="footer_logo"><img src="../../image/logo_gray.png" alt=""></span>
+						<p class="first_text">고객센터 <b>1544-7000</b></p>
+						<p>해외 <b>82-2-3420-7000</b></p>
+					</div>
+					<div class="info_etc">
+						<ul>
+							<li>카드분실신고 1544-7200</li>
+							<li>카드신청 1661-8599</li>
+							<li>금융신청 1588-0303</li>
+							<li>할부금융 1544-7100</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--footer(e)-->
+
+    <link rel="stylesheet" href="../../css/fullpage.css" type="text/css">
+	<!--full.js-->
+	<script src="../../js/fullpage.js" type="text/JavaScript"></script>
+	<script src="../../js/examples.js" type="text/JavaScript"></script>
+	<script src="../../js/slick.1.9.0.min.js" type="text/JavaScript"></script>
+	<script src="../../js/slick-animation.min.js" type="text/JavaScript"></script>
+	<script src="../../js/main_script.js" type="text/JavaScript"></script>
+	<script src="../../js/nav.js"></script>	
+</body>
+</html>

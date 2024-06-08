@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>신한카드</title>
+  <!--Add the css-->
+  <link rel="stylesheet" href="../../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="../../css/nav.css" type="text/css">
+  <link rel="stylesheet" href="../../css/slick.css" type="text/css">
+  <link rel="stylesheet" href="../../css/slick-theme.css" type="text/css">
+  <link rel="stylesheet" href="../../css/animate.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  <!--Add the js-->
+  <script src="../../js/jquery-2.1.3.min.js" type="text/javaScript"></script>
+  <script src="../../js/slick.min.js" type="text/javaScript"></script>
+ </head>
+<body id="sub">
+    <!--header(s)-->
+	<header>
+		<div class="all_header">
+			<div class="top_header">
+				<div class="inner">
+					<div class="mycarbox">
+						<p class="mycar">바로가기</p>
+						<p class="arrowdown"><img src="../../image/mycar_arrow_down.png" alt="전체보기"></p>
+						<p class="arrowup"><img src="../../image/mycar_arrow_up.png" alt="닫기"></p>
+					</div>
+					<div class="mycarslide">
+						<ul>
+							<li>마이카</li>
+							<li>신한아름인</li>
+							<li>신한은행</li>
+							<li>올댓쇼핑</li>
+							<li>BIGDATA</li>
+						</ul>
+					</div>
+					<div class="topmenu">
+						<ul>
+							<li>로그인</li>
+							<li>회원가입</li>
+							<li>아이디찾기</li>
+							<li>상품공시실</li>
+							<li>금융소비자보호포털</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bottom_header">
+				<div class="inner">
+					<div class="tit_container">
+						<div class="site_tit">
+							<p onclick="location.href='../../index.html'"><img src="../../image/logo.png" alt="로고"></p>
+							<div class="sitecg">
+								<div class="selected_cg">
+									<p class="sel_tit">개인</p>
+									<p class="arrowdown"><img src="../../image/title_arrow_down.png" alt="전체보기"></p>
+									<p class="arrowup"><img src="../../image/title_arrow_up.png" alt="닫기"></p>
+								</div>
+								<div class="unselected_cg">
+									<ul>
+										<li>법인</li>
+										<li>가맹점</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="../../image/search_icon.png" alt="검색">
+				</div>
+			</div>
+		</div>
+		<div class = "main-wrapper">
+			<nav class = "navbar">
+				<div class = "brand-and-icon">
+					<button type = "button" class = "navbar-toggler"><i class = "fas fa-bars"></i></button>
+					<span onclick="location.href='../../index.html'"><img src="../../image/logo_white.png" alt="logo"></span>
+				</div>
+
+				<div class = "navbar-collapse">
+					<!--nav-->
+					<ul class = "navbar-nav">
+						<li>
+							<a href = "#" class = "menu-link">마이
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>명세서</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">이용대금명세서</a></li>
+										<li><a href = "../mypage/mypage.html">이메일명세서 재발행</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용내역</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">카드이용내역(매출전표)</a></li>
+										<li><a href = "../mypage/mypage.html">카드이용실적 충족현황</a></li>
+										<li><a href = "../mypage/mypage.html">교통카드 이용내역</a></li>
+										<li><a href = "../mypage/mypage.html">개인사업자용 이용내역</a></li>
+										<li><a href = "../mypage/mypage.html">연회비 청구내역</a></li>
+										<li><a href = "../mypage/mypage.html">선택형서비스 조회·변경</a></li>
+										<li><a href = "../mypage/mypage.html">카드별혜택 이용내역</a></li>
+										<li><a href = "../mypage/mypage.html">카드별 통합한도</a></li>
+										<li><a href = "../mypage/mypage.html">VIP 서비스</a></li>
+										<li><a href = "../mypage/mypage.html">프리미엄카드 기프트 옵션</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용금액결제</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">즉시결제</a></li>
+										<li><a href = "../mypage/mypage.html">이번달 청구금액 즉시결제</a></li>
+										<li><a href = "../mypage/mypage.html">연체금액·결제일당일결제</a></li>
+										<li><a href = "../mypage/mypage.html">결제처리결과조회</a></li>
+										<li><a href = "../mypage/mypage.html">당일결제잔액조회</a></li>
+										<li><a href = "../mypage/mypage.html">연회비포인트결제</a></li>
+										<li><a href = "../mypage/mypage.html">입금내역조회</a></li>
+										<li><a href = "../mypage/mypage.html">환불내역조회·즉시환불</a></li>
+										<li><a href = "../mypage/mypage.html">가상계좌</a></li>
+										<li><a href = "../mypage/mypage.html">분할납부</a></li>
+										<li><a href = "../mypage/mypage.html">해외이용전 분할납부</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용한도</h4>
+									<ul>
+										<li><a href = "../mypage/mypage.html">이용한도조회</a></li>
+										<li><a href = "../mypage/mypage.html">이용한도 상향신청</a></li>
+										<li><a href = "../mypage/mypage.html">한도상향안내 동의</a></li>
+										<li><a href = "../mypage/mypage.html">카드별 이용한도</a></li>
+										<li><a href = "../mypage/mypage.html">추가한도 이용신청</a></li>
+										<li><a href = "../mypage/mypage.html">이용한도 하향신청</a></li>
+										<li><a href = "../mypage/mypage.html">체크특별한도</a></li>
+										<li><a href = "../mypage/mypage.html">개인사업자 추가한도 신청</a></li>
+										<li><a href = "../mypage/mypage.html">이용제한 등록</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+
+						<li>
+							<a href = "#" class = "menu-link">혜택
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>마이샵</h4>
+									<ul>
+										<li><a href = "../benefit/benefit.html">마이샵쿠폰</a></li>
+										<li><a href = "../benefit/benefit.html">마이샵안내</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>할인·포인트</h4>
+									<ul>
+										<li><a href = "../benefit/benefit.html">내가 받은 혜택</a></li>
+										<li><a href = "../benefit/benefit.html">포인트조회·전환</a></li>
+										<li><a href = "../benefit/benefit.html">포인트안내</a></li>
+										<li><a href = "../benefit/benefit.html">캐시백안내</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>신한플레이</h4>
+									<ul>
+										<li><a href = "../event/event.html">이벤트</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>정부지원사업</h4>
+									<ul>
+										<li><a href = "../benefit/benefit.html">상생소비지원금</a></li>
+										<li><a href = "../benefit/benefit.html">교육급여 바우처</a></li>
+										<li><a href = "../benefit/benefit.html">서울시 임산부 교통비 지원금</a></li>
+										<li><a href = "../benefit/benefit.html">성남시 아동수당 포인트</a></li>
+										<li><a href = "../benefit/benefit.html">아동급식카드·선불지원금</a></li>
+										<li><a href = "../benefit/benefit.html">국민행복 국가바우처</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+
+						<li>
+							<a href = "#" class = "menu-link">금융
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>마이 금융</h4>
+									<ul>
+										<li><a href = "../finance/finance.html">나의 금융상품</a></li>
+										<li><a href = "../finance/finance.html">나만의 금융혜택</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>단기카드대출</h4>
+									<ul>
+										<li><a href = "../finance_detail/finance_detail.html">단기카드대출 이용안내</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">계좌 입금</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">카드대금 결제</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">예약신청</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용내역</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">예약취소</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용한도조회</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">프리페이서비스</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용동의·미동의</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용금액결제(상환)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">금리인하요구권</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>장기카드대출</h4>
+									<ul>
+										<li><a href = "../finance_detail/finance_detail.html">대출신청</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">일반론 관리</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">마이너스론 관리</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용내역</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">엔젤서비스(결제연기)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">한도부여 동의·미동의</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">대출계약 철회</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용금액결제(상환)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">금리인하요구권</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>일부결제금액이월약정</h4>
+									<ul>
+										<li><a href = "../finance_detail/finance_detail.html">이용안내</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">신규약정</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">약정확인</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">약정변경</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">약정적용신청</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">이용금액결제(상환)</a></li>
+										<li><a href = "../finance_detail/finance_detail.html">금리인하요구권</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">카드
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드안내</h4>
+									<ul>
+										<li><a href = "../card/card.html">프리미엄카드</a></li>
+										<li><a href = "../card/card.html">신용카드</a></li>
+										<li><a href = "../card/card.html">체크카드</a></li>
+										<li><a href = "../card/card.html">제휴카드</a></li>
+										<li><a href = "../card/card.html">가족카드</a></li>
+										<li><a href = "../card/card.html">모바일 단독 카드</a></li>
+										<li><a href = "../card/card.html">디자인카드</a></li>
+										<li><a href = "../card/card.html">MY DIY</a></li>
+										<li><a href = "../card/card.html">기프트카드</a></li>
+										<li><a href = "../card/card.html">선불카드·선불전자지급수단</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드추천</h4>
+									<ul>
+										<li><a href = "../card/card.html">인기·추천카드</a></li>
+										<li><a href = "../card/card.html">해외이용 추천카드</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>내게맞는 카드찾기</h4>
+									<ul>
+										<li><a href = "../card/card.html">찾아드림</a></li>
+										<li><a href = "../card/card.html">간단찾기</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드 간편신청</h4>
+									<ul>
+										<li><a href = "../card/card.html">신용카드 간편신청</a></li>
+										<li><a href = "../card/card.html">체크카드 간편신청</a></li>
+										<li><a href = "../card/card.html">외국인 카드간편신청</a></li>
+										<li><a href = "../card/card.html">채팅심사</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">서비스
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>생활요금</h4>
+									<ul>
+										<li><a href = "../service/service.html">마이월세</a></li>
+										<li><a href = "../service/service.html">4대 사회보험료</a></li>
+										<li><a href = "../service/service.html">도시가스요금</a></li>
+										<li><a href = "../service/service.html">전기요금</a></li>
+										<li><a href = "../service/service.html">전화요금</a></li>
+										<li><a href = "../service/service.html">아파트관리비</a></li>
+										<li><a href = "../service/service.html">주택임대료(공공임대)</a></li>
+										<li><a href = "../service/service.html">지방세·국세</a></li>
+										<li><a href = "../service/service.html">SK브로드밴드요금</a></li>
+										<li><a href = "../service/service.html">요양병원(시설)이용료</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>구독</h4>
+									<ul>
+										<li><a href = "../service/service.html">디지털구독</a></li>
+										<li><a href = "../service/service.html">쇼핑케어</a></li>
+										<li><a href = "../service/service.html">마이카플러스</a></li>
+										<li><a href = "../service/service.html">디저트Pick</a></li>
+										<li><a href = "../service/service.html">뷰티Pick</a></li>
+										<li><a href = "../service/service.html">뮤직Pack</a></li>
+										<li><a href = "../service/service.html">트래블ON</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>교육비</h4>
+									<ul>
+										<li><a href = "../service/service.html">스쿨뱅킹</a></li>
+										<li><a href = "../service/service.html">대학등록금</a></li>
+										<li><a href = "../service/service.html">신한캠퍼스(학원비)</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>페이</h4>
+									<ul>
+										<li><a href = "../service/service.html">신한Pay머니</a></li>
+										<li><a href = "../service/service.html">PC용 신한Pay</a></li>
+										<li><a href = "../service/service.html">일반결제</a></li>
+										<li><a href = "../service/service.html">신한Smart결제</a></li>
+										<li><a href = "../service/service.html">패스워드 간편결제</a></li>
+										<li><a href = "../service/service.html">ARS결제</a></li>
+										<li><a href = "../service/service.html">더치페이</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">디지털
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>디지털 프로젝트</h4>
+									<ul>
+										<li><a href = "../digital/digital.html">신한플레이</a></li>
+										<li><a href = "../digital/digital.html">모바일 단독 카드</a></li>
+										<li><a href = "../digital/digital.html">오픈뱅킹</a></li>
+										<li><a href = "../digital/digital.html">스타벅스 오더</a></li>
+										<li><a href = "../digital/digital.html">디클럽(D-Club)</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>모바일앱</h4>
+									<ul>
+										<li><a href = "../digital/digital.html">서울Pay+</a></li>
+										<li><a href = "../digital/digital.html">프리미엄 쿠폰</a></li>
+										<li><a href = "../digital/digital.html">MySHOP Partner</a></li>
+										<li><a href = "../digital/digital.html">신한카드 올댓</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">Tops Club
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>Tops Club</h4>
+									<ul>
+										<li><a href = "#">Tops Club 안내</a></li>
+										<li><a href = "#">Tops 쿠폰</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+						<li>
+							<a href = "#" class = "menu-link">고객센터
+							</a>
+							<div class = "sub-menu">
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>카드상담</h4>
+									<ul>
+										<li><a href = "#">카드재발급</a></li>
+										<li><a href = "#">카드분실신고</a></li>
+										<li><a href = "#">카드일시거래정지</a></li>
+										<li><a href = "#">PP카드 갱신금지</a></li>
+										<li><a href = "#">부정사용(분실·도난·위변조) 신고</a></li>
+										<li><a href = "#">신용카드불법모집 신고</a></li>
+										<li><a href = "#">불법가맹점 제보</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>고객상담</h4>
+									<ul>
+										<li><a href = "#">고객상담</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>이용안내</h4>
+									<ul>
+										<li><a href = "../notice/notice.html">카드 종합 이용안내</a></li>
+										<li><a href = "../notice/notice.html">홈페이지 보안프로그램</a></li>
+										<li><a href = "../notice/notice.html">전자상거래 보안프로그램</a></li>
+										<li><a href = "../notice/notice.html">ARS 이용안내</a></li>
+										<li><a href = "../notice/notice.html">해외 종합 이용안내</a></li>
+										<li><a href = "../notice/notice.html">지점안내</a></li>
+										<li><a href = "../notice/notice.html">이용약관</a></li>
+										<li><a href = "../notice/notice.html">상품공시실</a></li>
+										<li><a href = "../notice/notice.html">투자자문계약 고시</a></li>
+										<li><a href = "../notice/notice.html">공지사항</a></li>
+										<li><a href = "../notice/notice.html">서식</a></li>
+										<li><a href = "../notice/notice.html">원격지원 서비스</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+								<!-- item -->
+								<div class = "sub-menu-item">
+									<h4>인증서 안내</h4>
+									<ul>
+										<li><a href = "#">공동인증서(구 공인인증서)</a></li>
+										<li><a href = "#">브라우저인증서</a></li>
+										<li><a href = "#">카드본인확인 서비스</a></li>
+									</ul>
+								</div>
+								<!-- end of item -->
+							</div>
+						</li>
+					</ul>
+					<!--//nav-->
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--header(e)-->
+
+	<!--sub_content(s)-->
+	<div class="qna_wrap">
+        <div class="page_title_wrap">
+            <h2>자주하는 질문</h2>
+        </div>
+
+        <!--qna_search-->
+        <div class="qna_search inner">
+            <div class="formtag_area">
+                <form action="">
+                    <input type="text" id="" name="" maxlength="30" class="form_w100" placeholder="검색어를 입력해주세요.">
+                </form>
+            </div>
+            <span class="searchicon"><img src="../../image/search_icon.png" alt="목적지 검색"></span>
+        </div>
+        <!--//qna_search-->
+
+        <!--qna_tab_slider-->
+        <div class="qna_tab_slider_wrap inner">
+            <!--arrow-->
+            <span class="btn_prev" id="BtnPrev"><img src="../../image/arrow_left2.png" alt="BtnPrev"></span>
+            <span class="btn_next" id="BtnNext"><img src="../../image/arrow_right2.png" alt="BtnNext"></span>
+            <!--//arrow-->
+            <div class="qna_tab_slider">
+                <div class="items">
+                    <div class="items_content tab_active">
+                        FAQ TOP 10
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="items_content">
+                        이용금액결제 및<br>이용한도
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="items_content">
+                        카드이용금액 확인<br>(명세서)
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="items_content">
+                        대출상품<br>(리볼빙 및 장기단기대출)
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="items_content">
+                        정보변경<br>(결제일 및 주소 등)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//qna_tab_slider-->
+
+        <!--qna_accordian-->
+        <div class="qna_accordian_wrap inner">
+            <div class="detail_accordion_wrap">
+                <div class="collapse-container" id="accordion">
+                    <h3>국내 일시불 이용대금을 분할납부하고 싶어요<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                국내일시불 거래를 분할납부 할 수 있도록 상환방식을 변경하는 서비스입니다.<br>
+                                국내일시불 이용 거래의 분할납부 서비스는 고객님의 결제편의성 제고를 위해 일시불거래건의 상환방식만을 변경 해 드리는 것으로 원래 할부 거래가 아니므로 할부철회, 항변권의 대상이 되지 않습니다.<br>
+                                <a>☞ 분할납부 신청 바로가기</a><br><br>
+
+                                <b>1. 국내 5만원이상 일시불거래 분할납부</b><br>
+                                1) 분할납부가능 개월 수: 이용 가맹점의 할부가능 개월 수<br>
+                                2) 분할납부방식: 일시불 이용 건별로 분할납부 (동일 개월 수인 경우 최대 5건까지 동시에 신청가능)<br>
+                                3) 분할납부수수료: 회원 별 할부 수수료율 적용<br>
+                                4) 명세서표기: 분할납부(이용가맹점명)<br>
+                                5) 신청경로<br>
+                                &nbsp① 홈페이지<br>
+                                &nbsp- 마이페이지 > 이용금액결제 > 분할납부<br>
+                                &nbsp- 이용가능시간: 365일 24시<br>
+                                &nbsp &nbsp※ 즉시신청 : 6시 ~19시, 예약신청: 19시~ 다음날 6시<br><br>
+
+                                <b>2. 국내 5만원미만  일시불거래 소액합산 분할납부</b><br>
+                                1) 분할납부가능 개월 수: 2~6개월<br>
+                                2) 분할납부방식: 5만원 미만거래를 최대 5건까지 합산하여  5만원이상시  1건으로 분할납부<br>
+                                3) 분할납부수수료: 회원별 할부 수수료율 적용<br>
+                                4) 명세서 표기: 소액합산 분할납부 (00건)<br>
+                                5) 신청경로<br>
+                                &nbsp① 홈페이지<br>
+                                &nbsp- 마이페이지 > 이용금액결제 > 분할납부<br>
+                                &nbsp- 이용가능시간: 365일 24시<br>
+                                &nbsp &nbsp※ 즉시신청 : 6시 ~19시, 예약신청: 19시~ 다음날 6시<br><br>
+
+                                ○ 분할납부시 유의 사항<br>
+                                ※ 신청가능 기간: 일시불거래 매입 후 결제일 전일 (자연일)까지 신청 가능(단, 비제휴 자동이체 계좌 이용 고객은 결제일 2영업일전까지 신청 가능)<br>
+                                ※ 무이자할부 행사가맹점에서 일시불 결제후 분할납부 신청시 무이자할부 적용이 되지 않습니다.(가맹점 제공 무이자할부를 적용받고자 하는 경우 가맹점에서 원일시불 거래취소후 할부거래로 재결제 바랍니다)<br>
+                                ※ 분할납부 신청 건은 각종 포인트 및 제휴카드 실적 적립에서 제외됩니다.<br>
+                                ※ 분할납부 신청완료 후 취소는 불가하오니 유의 바랍니다.<br><br>
+
+                                <b>○ 분할납부 신청 불가 이용 건<br>
+                                ① 완납, 부분입금 또는 부분취소가 있는 이용 건<br>
+                                ② 신한BC카드의 청구할인(캐쉬백)된 이용 건<br>
+                                ③ 추가한도 사용 및 한도 미차감 상품 이용 건<br>
+                                ④ 할부거래 불가 가맹점의 이용 건 (상품권, 기프트카드 등)<br>
+                                ⑤ 리볼빙 이용건<br>
+                                ⑥ 카드 자동이체(통신료, 관리비, 보험료 등) 건 중 한도를 초과하여 사용한 건<br>
+                                ⑦ 유의업종 이용 건 (미곡상, 다단계 판매, 학습지, 방문판매,회원제, 스포츠 센터/레포츠 클럽 등)</b>
+                            </p>
+                        </div>                       
+                    </div>
+                    <h3>결제일에 따른 이용기간에 대하여 알고 싶어요<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                신한카드의 경우 개인 신용카드 및 체크카드 결제일로 1일 ~ 27일까지 운영중이며 결제일별 이용기간은 다음과 같습니다.<br><br>
+
+                                <b>1. 결제일별 일시불 및 할부 이용기간</b><br>
+                            </p>
+                        </div>
+                        <div class="information_table">
+                            <table>
+                                <tr>
+                                    <th>결제일</th>
+                                    <th class="line_no_right">일시불 및 할부 이용기간</th>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">1일</td>
+                                    <td class="line_no_right text_center">전전월 18일 ~ 전월 17일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">2일</td>
+                                    <td class="line_no_right text_center">전전월 19일 ~ 전월 18일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">3일</td>
+                                    <td class="line_no_right text_center">전전월 20일 ~ 전월 19일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">4일</td>
+                                    <td class="line_no_right text_center">전전월 21일 ~ 전월 20일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">5일</td>
+                                    <td class="line_no_right text_center">전전월 22일 ~ 전월 21일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">6일</td>
+                                    <td class="line_no_right text_center">전전월 23일 ~ 전월 22일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">7일</td>
+                                    <td class="line_no_right text_center">전전월 24일 ~ 전월 23일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">8일</td>
+                                    <td class="line_no_right text_center">전전월 25일 ~ 전월 24일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">9일</td>
+                                    <td class="line_no_right text_center">전전월 26일 ~ 전월 25일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">10일</td>
+                                    <td class="line_no_right text_center">전전월 27일 ~ 전월 26일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">11일</td>
+                                    <td class="line_no_right text_center">전전월 28일 ~ 전월 27일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">12일</td>
+                                    <td class="line_no_right text_center">전전월 29일 ~ 전월 28일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">13일</td>
+                                    <td class="line_no_right text_center">전전월 30일 ~ 전월 29일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">14일</td>
+                                    <td class="line_no_right text_center">전월 1일 ~ 전월 말일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">15일</td>
+                                    <td class="line_no_right text_center">전월 2일 ~ 당월 1일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">16일</td>
+                                    <td class="line_no_right text_center">전월 3일 ~ 당월 2일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">17일</td>
+                                    <td class="line_no_right text_center">전월 4일 ~ 당월 3일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">18일</td>
+                                    <td class="line_no_right text_center">전월 5일 ~ 당월 4일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">19일</td>
+                                    <td class="line_no_right text_center">전월 6일 ~ 당월 5일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">20일</td>
+                                    <td class="line_no_right text_center">전월 7일 ~ 당월 6일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">21일</td>
+                                    <td class="line_no_right text_center">전월 8일 ~ 당월 7일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">22일</td>
+                                    <td class="line_no_right text_center">전월 9일 ~ 당월 8일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">23일</td>
+                                    <td class="line_no_right text_center">전월 10일 ~ 당월 9일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">24일</td>
+                                    <td class="line_no_right text_center">전월 11일 ~ 당월 10일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">25일</td>
+                                    <td class="line_no_right text_center">전월 12일 ~ 당월 11일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">26일</td>
+                                    <td class="line_no_right text_center">전월 13일 ~ 당월 12일</td>
+                                </tr>
+                                <tr>
+                                    <td class="text_center">27일</td>
+                                    <td class="line_no_right text_center">전월 14일 ~ 당월 13일</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="text_content">
+                            <p>
+                                <b>2. 단기카드대출(현금서비스) 이용기간</b><br>
+                                전전월 결제일+1일(자연일) ~ 전월 결제일<br>
+                                (단, 전전월 결제일이나 전월 결제일이 주말 또는 공휴일인 경우, 각각 다음 영업일을 결제일로 하여 이용기간 산정)<br><br>
+                                
+                                <b>3. 단기카드대출(현금서비스) 한도 발생일</b><br>
+                                &nbsp1) 자동이체: 결제일+1일(자연일) 한도 발생<br>  
+                                &nbsp2) 지로: 결제일+5일(자연일) 한도 발생(단, 26일 결제일은 매월 1일 한도 발생)
+                            </p>
+                        </div>
+                    </div>
+                    <h3>카드 재발급 신청 방법을 알려주세요<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                카드 재발급 신청은 신한카드 홈페이지 및 고객센터, 신한카드 지점 및 신한은행 영업점을 통해 가능합니다.<br><br>
+
+                                <b>1. 홈페이지 신청</b><br>
+                                홈페이지 내 카드소개에서 원하는 카드상품 선택 후 카드 신청<br>
+                                (단, 카드 상품에 따라 홈페이지 신청이 불가할 수 있는 점 양해 바랍니다.)<br>
+                                <a>☞ 카드재발급 신청 바로가기</a><br><br>
+
+                                <b>2. 유선 신청</b><br>
+                                고객센터 상담원 연결 후 재발급 신청<br><br>
+
+                                <b>3. 신한카드 지점 및 신한은행 영업점 신청</b><br>
+                                주민등록증을 꼭 지참후 가까운 지점으로 직접 내사하여 재발급 신청<br><br>
+
+                                <b>[참고사항]</b><br>
+                                1. 카드 재발급 시 카드번호의 일부 또는 전체와 유효기간이 모두 변경되므로 보험료, 인터넷 통신료 등 자동이체 신청내역이 있다면 해당사를 통해 새로운 카드번호로 변경 신청 후 이용 바랍니다.<br>
+                                2. 카드 수령까지는 약 일주일 전후로 소요됩니다.
+                            </p>
+                        </div>
+                    </div>
+                    <h3>연회비 금액은 어떻게 구성되나요?<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                <b>연회비 안내</b><br><br>
+
+                                1.연회비는 기본연회비와 서비스(제휴)연회비로 구성되어 있으며, 카드 발급 시점을 기준으로 1년 단위로 청구됩니다.<br>
+                                (단, 일부카드의 경우 발급에 따른 발급수수료가 별도 청구될 수 있습니다.)<br><br>
+
+                                기본연회비는 회원관리비용(발급, 이용대금명세서 발송 등)으로 카드상품 종류에 따라 회원별 또는 카드별로 청구되며, 서비스연회비는 카드별로 제공되는 부가서비스 비용으로 카드별로 각각 청구됩니다.<br><br>
+
+                                2. 연회비는 보유중인 카드별로 [기본연회비+서비스연회비]로 각각 청구됩니다.<br><br>
+
+                                단,  기본연회비는<br>
+                                - 회원별로 청구되는 상품을 1개이상 보유(가족카드 포함)하신 경우 회원별 정상 청구되는 기본연회비 중 가장 높은 금액을 기준으로 1건 청구<br>
+                                - 카드별로 청구되는 카드상품을 1개이상 보유하신 경우 보유 카드수 기준으로 각각 청구<br><br>
+
+                                이에, 보유하신 카드상품 종류에 따라 기본연회비 청구기준이 상이하므로 교체 및 추가발급 시 당사 고객센터(☎1544-7000, 월~금,  09:00~18:00)를 통해 연회비 청구기준을 확인 부탁드립니다.<br><br>
+
+                                3. 가족카드 연회비는 카드상품, 브랜드, 등급이 본인카드와 동일한 제휴카드로 보유 시 연회비는 중복 청구되지 않으나, 별도 가족 연회비가 책정되어 있는 카드상품 종류는 가족카드 연회비가 개별 부과됩니다.<br><br>
+
+                                ※ 연회비는 카드상품 종류, 브랜드 ,등급에 따라 상이하며,  신청 시점 등에 따라 청구시점이 달라질 수 있고 상품별 연회비 정보는 신한카드 홈페이지 > 카드 > 카드소개 에서 확인할 수 있습니다.<br><br><br>
+
+
+                                <a>☞ 카드안내 바로가기</a>
+                            </p>
+                        </div>
+                    </div>
+                    <h3>연회비를 포인트로 결제할 수 있나요?<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                마이신한포인트 1포인트 이상 보유 시 연회비로 결제요청 가능합니다.<br><br>
+  
+                                1. 마이신한포인트 연회비 결제 신청기간<br>
+                                &nbsp1) 청구된 연회비가 있을 경우 실시간 납부 가능<br>
+                                &nbsp2) 정기 연회비 신청 및 해지 신청 상시 가능<br><br>
+                                
+                                2. 신한카드 홈페이지 마이페이지 > 이용금액결제 > 연회비포인트결제, 또는 고객센터로 신청<br>
+                                <a>☞ 연회비 포인트결제 바로가기</a><br><br>
+
+                                3. 연회비 전액 또는 부분 결제 가능
+                            </p>
+                        </div>
+                    </div>
+                    <h3>결제일을 변경하고 싶어요<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                현재 운영되는 결제일은 매월 1일 ~ 27일로 다른 결제일로 변경을 원하시는 경우, 홈페이지 또는 고객센터 상담원(본인고객에 한하여 가능)을 통해 변경 가능합니다.<br><br>
+
+                                마이페이지 > 내정보 관리 > 결제일변경 메뉴에서 변경 가능<br>
+                                <a>☞ 결제일 변경 바로가기</a><br><br><br>
+
+
+                                <b>※참고사항</b><br>
+                                1. 카드 거래 정지 중이거나 결제일 변경 당시 미납금액(총 연체금액+당월연체료) 1원 이상, 최근 2개월 이내 결제일 변경 이력이 있는 경우에는 결제일 변경이 불가합니다.<br>
+                                2. 최근 3개월 이내의 결제일 변경 이력은 홈페이지 > 마이페이지 > 내정보 관리 > 결제일변경 > 결제일변경 이력조회에서 확인 가능합니다.<br>
+                                3. 결제일 변경 전 이용 거래 중 선결제 내역이 있을 경우에도 결제일 변경이 불가할 수 있으니 고객센터를 통해 변경하시기 바랍니다.<br>
+                                4. 결제일 변경시 소지한 신한카드의 동일 결제일인 카드는 모두 변경됩니다. (신한bc제외)<br>
+                                5. 결제일마다 카드사용기간이 다르게 운영되고 있으니, 변경 후 적용 월과 이용기간을 확인 후 이용 하시기 바랍니다.
+                            </p>
+                        </div>
+                    </div>
+                    <h3>카드가 발급됐는지 궁금합니다<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                신용카드 신규발급 신청 시 신청인의 연령, 직업, 소득, 신용도, 신한카드나 타사 금융 실적 등 여러 가지 정보를 기반으로 카드발급 심사가 이뤄집니다.<br>
+                                발급 심사 후 카드 수령까지는 약 일주일 전후로 소요될 수 있으며 심사 절차에 따라 기간이 단축되거나 연장될 수 있습니다.<br>
+                                카드 수령 전 발급 진행상황은 홈페이지를 통해 직접 확인 가능합니다.<br><br>
+
+                                <b>홈페이지 조회 방법</b><br>
+                                「신한카드 메인화면 > 카드 > 카드발급조회」<br>
+                                상기 메뉴를 통해 재발급 및 추가 발급 중인 카드 진행상황도 조회가 가능하니 참고 바랍니다.<br>
+                                <a>☞ 카드발급상황 조회 바로가기</a>
+                            </p>
+                        </div>
+                    </div>
+                    <h3>해외 이용 대금을 분할납부로 전환하여 입금이 가능한가요?<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                해외 일시불 거래 중 5만원 이상 거래에 대해 회원님의 할부 수수료율을 적용하여 2~24개월까지 분할납부 신청을 할 수 있습니다.<br>
+                                (결제일로부터 최소 2영업일 전까지 가능)
+                            </p>
+                        </div>
+                    </div>
+                    <h3>거래를 취소한 경우 한도는 언제 반영되나요?<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                카드를 사용하게 되면 사용 즉시 승인된 금액만큼 총한도에서 차감되며 해당 거래를 취소한 경우 신한카드로 취소 반영되어야만 한도가 복원됩니다.<br><br>
+    
+                                <b>한도 반영 시점</b><br>
+                                1. 승인된 상태에서 취소 반영 시 취소 즉시 한도 복원됩니다.<br>
+                                2. 가맹점으로부터 거래전표가 신한카드로 접수된 후 취소 요청된 경우에는 신한카드로 취소 반영된 이후 한도가 복원됩니다.<br><br>
+                                
+                                <b>참고사항</b><br>
+                                취소 반영 여부는 신한카드 홈페이지 우측 상단 전체 메뉴 > 마이페이지 > 이용내역 서비스 > 카드이용내역 > 취소내역에서 확인 가능합니다.    
+                            </p>
+                        </div>
+                    </div>
+                    <h3>분실신고를 하고 싶어요<span class="arrow-r"></span></h3>
+                    <div>
+                        <div class="text_content">
+                            <p>
+                                보유하고 있는  카드를 분실한 경우 분실 사실을 확인한 즉시 신한카드 홈페이지 또는 ARS를 통해 분실신고해주시기 바랍니다.<br>
+                                (분실신고는 24시간 접수 가능합니다.)<br><br>
+     
+                                <b>분실신고 방법</b><br>
+                                1. 신한카드 분실신고 고객센터 ☎1544-7200<br>
+                                2. 신한카드 홈페이지 > 고객센터 > 카드상담 > 카드분실신고/해제 > 카드분실신고<br>
+                                <a>☞ 분실신고 바로가기</a><br><br>
+
+                                ※ 체크카드 분실 시 현금겸용 기능 정지는 해당 은행으로 따로 요청해주세요.(신한, 우체국, 수협 제외)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//qna_accordian-->
+
+        <!--pages-->
+        <div class="pages">
+            <div class="page_prev">
+                <span class="page_prev_arrows"><img src="../../image/sub/mini_prev_arrow.png" alt="이전"></span>
+                <p>이전</p>
+            </div>
+            <ul>
+                <li class="page_active">1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <div class="page_next">
+                <p>다음</p>
+                <span class="page_next_arrows"><img src="../../image/sub/mini_next_arrow.png" alt="다음"></span>
+            </div>
+        </div>
+        <!--//pages-->
+    </div>
+	<!--sub_content(e)-->
+
+	<!--footer(s)-->
+	<div class="section" id="section6">
+		<div class="footer">
+			<div class="inner">
+				<div class="sns">
+					<span><img src="../../image/katalk_logo.png" alt="카카오톡"></span>
+					<span><img src="../../image/youtube_logo.png" alt="유튜브"></span>
+					<span><img src="../../image/twitter_logo.png" alt="트위터"></span>
+					<span><img src="../../image/facebook_logo.png" alt="페이스북"></span>
+					<span><img src="../../image/blog_logo.png" alt="블로그"></span>
+					<span><img src="../../image/post_logo.png" alt="네이버 포스트"></span>
+				</div>
+				<div class="familysite">
+					<div class="fs_con">
+						<ul>
+							<li>신한금융지주회사</li>
+							<li>신한은행</li>
+							<li>신한투자증권</li>
+							<li>신한라이프</li>
+							<li>신한캐피탈</li>
+							<li>신한자산운용</li>
+							<li>제주은행</li>
+							<li>신한저축은행</li>
+							<li>신한자산신탁</li>
+							<li>신한DS</li>
+							<li>신한펀드파트너스</li>
+							<li>신한신용정보</li>
+							<li>신한리츠운용</li>
+							<li>신한 AI</li>
+							<li>신한벤처투자</li>
+							<li>신한EZ손해보험</li>
+						</ul>
+					</div>
+					<div class="fs_tit">
+						<p class="ft_t">FAMILY SITE</p>
+						<p class="arrowdown"><img src="../../image/fs_arrow.png" alt=""></p>
+						<p class="arrowup"><img src="../../image/fs_arrow_up.png" alt=""></p>
+					</div>
+				</div>
+				<div class="footer_info">
+					<ul>
+						<li>회사소개</li>
+						<li>이용약관</li>
+						<li>개인정보처리방침</li>
+						<li>위치기반서비스 이용약관</li>
+						<li>금융소비자보호포털</li>
+						<li>전자민원접수</li>
+						<li>상품공시실</li>
+						<li>내부자제보</li>
+					</ul>
+					<div class="info_center">
+						<span class="footer_logo"><img src="../../image/logo_gray.png" alt=""></span>
+						<p class="first_text">고객센터 <b>1544-7000</b></p>
+						<p>해외 <b>82-2-3420-7000</b></p>
+					</div>
+					<div class="info_etc">
+						<ul>
+							<li>카드분실신고 1544-7200</li>
+							<li>카드신청 1661-8599</li>
+							<li>금융신청 1588-0303</li>
+							<li>할부금융 1544-7100</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--footer(e)-->
+
+    <link rel="stylesheet" href="../../css/fullpage.css" type="text/css">
+	<!--full.js-->
+	<script src="../../js/fullpage.js" type="text/JavaScript"></script>
+	<script src="../../js/examples.js" type="text/JavaScript"></script>
+	<script src="../../js/slick.1.9.0.min.js" type="text/JavaScript"></script>
+	<script src="../../js/slick-animation.min.js" type="text/JavaScript"></script>
+	<script src="../../js/main_script.js" type="text/JavaScript"></script>
+	<script src="../../js/nav.js"></script>	
+    <script src="../../js/jquery.collapsible.js"></script>
+    <script>
+        //qna : 아코디언 메뉴
+        $('#accordion').collapsible({
+            contentOpen: 0,
+            accordion: true,
+        });
+    </script>
+</body>
+</html>
